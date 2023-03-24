@@ -1,0 +1,193 @@
+.dashboard {
+  background-color: #f8f9fa;
+  /* height: 100vh; */
+}
+
+.dashboard > .dashboard__sidebar__wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 30px; */
+}
+
+.dashboard > .dashboard__sidebar__wrapper > .main__dashboard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard
+  > .dashboard__sidebar__wrapper
+  > .main__dashboard
+  > .welcomemesage__fundwallet__wrapper {
+  /* background-color: rgb(32, 192, 243); */
+  padding-top: 70px;
+  /* padding-left: 30px; */
+  padding-right: 30px;
+  width: 90%;
+  /* padding-bottom: 70px; */
+
+  display: flex;
+  align-items: center;
+}
+
+.dashboard
+  > .dashboard__sidebar__wrapper
+  > .main__dashboard
+  > div
+  > .welcome__message
+  > h1 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.dashboard
+  > .dashboard__sidebar__wrapper
+  > .main__dashboard
+  > div
+  > .welcome__message {
+  width: 100%;
+  /* background-color: red; */
+}
+
+.dashboard
+  > .dashboard__sidebar__wrapper
+  > .main__dashboard
+  > div
+  > .welcome__message
+  > p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  width: 65%;
+  line-height: 25px;
+}
+
+.dashboard
+  > .dashboard__sidebar__wrapper
+  > .main__dashboard
+  > div
+  > .fund__wallet {
+  background-color: rgb(221, 75, 57);
+  color: white;
+  border-radius: 25px;
+  padding: 15px 10px 15px 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.dashboard
+  > .dashboard__sidebar__wrapper
+  > .main__dashboard
+  > div
+  > .fund__wallet:hover {
+  cursor: pointer;
+}
+
+.main__dashboard > .others {
+  margin-top: 100px;
+  color: black;
+  width: 90%;
+  padding: 50px;
+
+  padding-left: 30px;
+  padding-right: 30px;
+
+  box-shadow: 0px 0px 1.8rem 0px rgb(10% 10% 10% / 10%);
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+.main__dashboard > .others > .wallet__balance {
+  box-shadow: 0px 0px 1.8rem 0px rgb(10% 10% 10% / 10%);
+  padding: 20px;
+  /* width: 30%; */
+  flex: 1;
+
+  margin-right: 20px;
+}
+
+.main__dashboard > .others > .wallet__balance > p {
+  font-weight: 100;
+  margin-bottom: 11px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.main__dashboard > .others > .wallet__balance > h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.main__dashboard > .others > .transactions {
+  box-shadow: 0px 0px 1.8rem 0px rgb(10% 10% 10% / 10%);
+  padding: 20px;
+  /* width: 30%; */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.main__dashboard > .others > .datatransactions {
+  /* width: 30%; */
+  flex: 1;
+  box-shadow: 0px 0px 1.8rem 0px rgb(10% 10% 10% / 10%);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.main__dashboard > .others > .transactions > p {
+  font-weight: 100;
+  margin-bottom: 11px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.main__dashboard > .others > .transactions > p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.main__dashboard > .others > .datatransactions > p {
+  font-weight: 100;
+  margin-bottom: 11px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.main__dashboard > .others > .datatransactions > p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.main__dashboard > .others > .buydata {
+  /* width: 30%; */
+  flex: 1;
+  box-shadow: 0px 0px 1.8rem 0px rgb(10% 10% 10% / 10%);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__dashboard > .others > .buydata > p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.main__dashboard > .others > .buydata > p {
+  font-weight: 100;
+  margin-bottom: 11px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
